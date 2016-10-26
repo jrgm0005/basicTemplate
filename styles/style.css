@@ -1,0 +1,13 @@
+@import "../reset.css";
+@import "../fonts.css";
+html,body{font-size:10px;font-family:'Roboto','Proza Libre','Source Sans Pro',Arial,sans-serif}h1{font-size:4.4em;font-family:lft-etica;font-weight:bold;padding:1rem 2rem}h2{font-size:3.333em;font-weight:bold;font-family:lft-etica;text-transform:uppercase;padding:.75rem 2rem}h3{font-size:3em;padding:.66rem 2rem}h4{font-size:2.25em;padding:.55rem 2rem}p{font-size:1.8rem;line-height:1em;padding:.75em 1em}a{display:inline-block}a[href]{color:#00f;position:relative;text-decoration:none;border-bottom:.2rem;border-style:dashed;}a[href]:hover{border-style:solid}table{border-collapse:collapse;border-spacing:0}img{display:block;border:0;max-width:90%;margin:2rem auto}input[type="text"]{border-radius:.33rem;min-height:2rem;margin:1rem}blockquote{background:#f9f9f9;border-left:2rem solid #ccc;border-left:2rem solid #070;margin:1.5rem 3rem;padding:.5rem 1.5rem;quotes:"\201C" "\201D" "\2018" "\2019"}blockquote:before{color:#ccc;color:#070;content:open-quote;font-size:5em;line-height:.25em;margin-right:.2rem;vertical-align:-.4em}blockquote p{display:inline;font-size:1.75em}.clearfix:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}.clearfix{display:inline-block}html[xmlns] .clearfix{display:block}* html .clearfix{height:1%}.shine_blue:focus{box-shadow:0 0 5px #00f;border:1px solid rgba(0,0,255,0.8)}.shine_light_green:focus{box-shadow:0 0 5px #398080;border:1px solid #398080}.button{display:inline-block;padding:1.5rem 2.5rem;margin:1rem;font-size:2.4em;cursor:pointer;text-align:center;text-decoration:none;outline:none;color:#fff;background-color:#00f;border:none;border-radius:1.5rem;box-shadow:0 9px #999}.button:hover{background-color:#00a}.button:active{background-color:#008;box-shadow:0 5px #666;transform:translateY(4px)}.btn_default{font-size:1em;margin:2%;text-decoration:none;padding:1rem 2rem;border:none;border-radius:1rem .5rem}.btn_default:hover{border:none;border-radius:1rem 1rem 0 1rem}.btn_azul{background:none repeat scroll 0% 0% #0059b3}.strong{font-weight:bold}Custom text selection ::selection{background:#e2eae2}Custom text selection ::-moz-selection{background:#e2eae2}Custom text selection ::-webkit-selection{background:#e2eae2}
+.transparent{
+  filter: alpha(opacity=40);
+  /* internet explorer */
+  -khtml-opacity: 0.4;
+  /* khtml, old safari */
+  -moz-opacity: 0.4;
+  /* mozilla, netscape */
+  opacity: 0.4;
+  /* fx, safari, opera */
+}
